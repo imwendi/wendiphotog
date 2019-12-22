@@ -1,0 +1,19 @@
+<article class="posts__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+    {% if post.image %}
+      <figure class="posts__img">
+        <img src="{{ post.image }}" alt="{{ post.title }}" data-aos="fade-in" itemprop="image"/>
+      </figure>
+    {% endif %}
+    <div>
+      <h2 class="posts__text" id="hover_dets"><strong itemprop="name">{{ post.title }}</strong></h2>
+    </div>
+
+    <div class="settings_hover">
+      {% for item in post.settings %}
+       &bull; {{item}} &nbsp;
+      {% endfor %}
+    </div>
+
+  </a>
+</article>

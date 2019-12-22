@@ -1,0 +1,44 @@
+//----------------------------------------------
+// Mast
+//----------------------------------------------
+.mast {
+  @extend %text-center;
+
+  &__text {
+    margin: {
+      top: 0.5em;
+      bottom: 0;
+    }
+
+    font-size: 1.1em;
+  }
+}
+
+.settings_hover {
+  display: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+#bebas {
+    font-family: 'Bebas Neue', $font, sans-serif;
+}
+
+#settings {
+  font-family: $font;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#kit {
+  font-family: $font;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.profilepic{
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  border-radius: 50%;
+}

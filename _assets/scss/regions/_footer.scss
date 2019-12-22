@@ -1,0 +1,85 @@
+//----------------------------------------------
+// Footer
+//----------------------------------------------
+
+p{
+  transition: 500ms ease-in-out;
+}
+
+p:hover {
+  background-color: yellow;
+}
+
+.footer {
+  color: $color-black;
+  background-color: none;
+  border-top: none;/*$border;*/
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 9pt;
+
+  &__container {
+    margin-top: 3em;
+  }
+
+  &__tags {
+    @extend %flex-center;
+    @extend %no-list-style;
+
+    flex-wrap: wrap;
+
+    & > * {
+      margin-bottom: 2em;
+
+      &:not(:last-child) {
+        margin-right: 1em;
+      }
+    }
+  }
+
+  &__link {
+    font-size: $font-small;
+    color: $color-black;
+    transition: color 200ms ease-in-out;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-grey;
+    }
+  }
+
+  &__social {
+    @extend %flex-center;
+    @extend %no-list-style;
+
+    & > *:not(:last-child) {
+      margin-right: 0.75em;
+    }
+
+    a {
+      font-size: 1.25em;
+      color: $color-black;
+    }
+  }
+}
+
+//----------------------------------------------
+// Flex based sticky footer
+//----------------------------------------------
+// body {
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 100vh;
+// }
+
+main {
+  position: relative;
+  // z-index: $z-1;
+
+  // flex-grow: 1;
+  margin-top: none; /*$header-height;*/
+}
