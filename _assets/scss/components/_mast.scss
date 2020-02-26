@@ -19,9 +19,18 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-
 #bebas {
     font-family: 'Bebas Neue', $font, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+#alata {
+  font-family: 'Alata', $font, sans-serif;
+}
+
+li span {
+  position: relative;
+  left: -10px;
 }
 
 #settings {
