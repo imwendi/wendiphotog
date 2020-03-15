@@ -10,7 +10,7 @@ description: >
   Shots by Wendi Ma
 url: http://wendima.com
 twitter_username:
-default_img: /assets/profile
+default_img: https://live.staticflickr.com/65535/49052885007_822643cc75_k_d.jpg
 social:
   - name: twitter
     url:
