@@ -5,9 +5,10 @@ permalink: /:year/:month/:day/:title/
 google_analytics:
 
 name: Wendi Ma
-title: Wendi 
+title: Wendi
 description: >
   Shots by Wendi Ma
+url: http://wendima.com
 twitter_username:
 default_img: /assets/profile
 social:
@@ -37,7 +38,7 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 author:
   - name: Wendi Ma
     bio: Mechatronics Engineering & Maths Student @ The University of Queensland. Aspiring photographer.
-    url: wendima.com
+    url: http://wendima.com
 
 # Pagination settings
 pagination:
@@ -58,7 +59,7 @@ autopages:
   tags:
     layouts:
       - 'tag.html'
-    title: 'Wendi Ma'
+    title: 'Wendi'
     permalink: '/tag/:tag'
     slugify:
       mode: raw
