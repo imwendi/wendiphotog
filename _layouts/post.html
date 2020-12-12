@@ -2,15 +2,6 @@
 layout: default
 ---
 
-{% if page.image %}
-<center>
-<!--img src="{{ page.image }}#full"> -->
-{% for item in page.images %}
-<img src="{{ item }}#full">
-{% endfor %}
-</center>
-{% endif %}
-
 
 <div class="post">
   <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
@@ -82,6 +73,15 @@ layout: default
 
   </article>
 </div>
+
+{% if page.image %}
+<center>
+<!--img src="{{ page.image }}#full"> -->
+{% for item in page.images %}
+<img src="{{ item }}#full">
+{% endfor %}
+</center>
+{% endif %}
 
 <!-- Links to Previous/Next posts -->
 {% assign relatedTag = page.tags | first %}
