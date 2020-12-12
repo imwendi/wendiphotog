@@ -94,11 +94,12 @@
   &__img {
     margin-bottom: 1em;
 
+  /*
     background-color: $color-lightgrey;
     transition: transform 400ms ease-in-out;
 
     filter: none;
-  /*
+
     -webkit-filter: brightness(100%) grayscale(0%);
     -webkit-transition: all .6s ease;
     -webkit-backface-visibility: hidden;
