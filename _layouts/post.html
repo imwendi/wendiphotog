@@ -6,6 +6,9 @@ layout: default
 <center>
 <img src="{{ page.image }}#full">
 </center>
+{% for item in page.image %}
+<img src="{{ item }}#full">
+{% endfor %}
 {% endif %}
 
 
