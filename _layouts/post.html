@@ -69,19 +69,20 @@ layout: default
       </div>
     {% endif %} -->
 
-    {% include disqus.html %}
+    <!--{% include disqus.html %}-->
+
+
+    {% if page.image %}
+    <center>
+    <!--img src="{{ page.image }}#full"> -->
+    {% for item in page.images %}
+    <img src="{{ item }}#full">
+    {% endfor %}
+    </center>
+    {% endif %}
 
   </article>
 </div>
-
-{% if page.image %}
-<center>
-<!--img src="{{ page.image }}#full"> -->
-{% for item in page.images %}
-<img src="{{ item }}#full">
-{% endfor %}
-</center>
-{% endif %}
 
 <!-- Links to Previous/Next posts -->
 {% assign relatedTag = page.tags | first %}
