@@ -75,7 +75,7 @@
 
     &:hover {
       .posts__img {
-        transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -50px, 0);
 
         filter: none;
         -webkit-filter: grayscale(0%);
@@ -94,7 +94,6 @@
   &__img {
     margin-bottom: 1em;
 
-  /*
     background-color: $color-lightgrey;
     transition: transform 400ms ease-in-out;
 
@@ -103,7 +102,6 @@
     -webkit-filter: brightness(100%) grayscale(0%);
     -webkit-transition: all .6s ease;
     -webkit-backface-visibility: hidden;
-  */
 
     img {
       display: block;
