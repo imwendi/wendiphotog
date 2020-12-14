@@ -4,9 +4,9 @@ baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics:
 
-name:
-title: Wendi Ma
-description: >
+name: Wendi Ma
+title: Photography
+description:
   Shots by Wendi Ma
 url: http://wendima.com
 twitter_username:
