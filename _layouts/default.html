@@ -9,7 +9,7 @@ layout: compress
 
 </head>
 
-<body id="{% if page.title %}{{ page.title | slugify }}{% else %}Wendi Ma{% endif %}" class="{{ page.layout | downcase }}-layout">
+<body id="{% if page.title != default %}{{ page.title | slugify }}{% else %}Wendi Ma{% endif %}" class="{{ page.layout | downcase }}-layout">
 
   {% include header.html %}
 
