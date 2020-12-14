@@ -4,7 +4,7 @@ baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics:
 
-name: Wendi Ma
+name:
 title: Wendi Ma
 description: >
   Shots by Wendi Ma
