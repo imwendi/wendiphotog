@@ -104,7 +104,10 @@ layout: default
 
 <div class="imgbox">
     <img class="center-fit" src={{ item }}>
+
+    {% if item != page.images[-1]%}
     <br>
+    {%endif%}
 </div>
 
 {% endfor %}

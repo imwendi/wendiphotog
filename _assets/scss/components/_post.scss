@@ -5,6 +5,9 @@
 .imgbox {
             display: grid;
             height: 100%;
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
         }
         .center-fit {
             max-width: 100%;
