@@ -55,6 +55,8 @@
 
   &__post {
     padding: 2em 2em;
+    background-color: $color-white;
+    color: $color-white;
 
     // @media (min-width: $mq-small) {
     //   padding: {
@@ -94,8 +96,9 @@
   &__img {
     margin-bottom: 1em;
 
-    /*background-color:
-    transition: transform 400ms ease-in-out;*/
+    color: $color-white;
+    background-color: $color-white;
+    transition: transform 400ms ease-in-out;
 
     filter: none;
 
@@ -104,6 +107,8 @@
     -webkit-backface-visibility: hidden;
 
     img {
+      color: $color-white;
+      background-color: $color-white;
       display: block;
     }
   }
