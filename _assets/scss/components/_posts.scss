@@ -152,7 +152,7 @@
       width: 1.75em;
 
       border: 2px solid transparent;
-      /*border-top-color: $color-grey;*/
+      border-top-color: $color-white;
       animation: spin 1s linear infinite both;
     }
 
@@ -161,11 +161,11 @@
       width: 2.5em;
 
       border: 1px solid transparent;
-      /*
+
       border: {
-        top-color: $color-grey;
-        right-color: $color-grey;
-      }*/
+        top-color: $color-white;
+        right-color: $color-white;
+      }
       animation: spin-reverse 1.2s linear infinite both;
     }
 
