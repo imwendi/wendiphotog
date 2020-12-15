@@ -4,9 +4,9 @@ baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics:
 
-name:
+name: Wendi Ma
 title: Wendi Ma
-description:
+description: >
   Shots by Wendi Ma
 url: http://wendima.com
 twitter_username:
@@ -48,8 +48,8 @@ pagination:
   permalink: '/page/:num/'
   title: ':title'
   limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+  sort_field: 'order'
+  sort_reverse: false
 autopages:
   enabled: true
   categories:
