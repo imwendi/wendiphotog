@@ -54,7 +54,7 @@
   }
 
   &__post {
-    padding: 2em 1em;
+    padding: 2em 2em;
 
     // @media (min-width: $mq-small) {
     //   padding: {
@@ -163,7 +163,7 @@
       border: 1px solid transparent;
       border: {
         top-color: $color-grey;
-        /*right-color: $color-grey;*/
+        right-color: $color-grey;
       }
       animation: spin-reverse 1.2s linear infinite both;
     }
