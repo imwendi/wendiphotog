@@ -33,15 +33,32 @@ li span {
   left: -10px;
 }
 
-#settings {
-  font-family: $font;
-  font-size: 14pt;
+#post_title{
+  font-family: 'Bebas Neue';
+  font-size: 30pt;
   font-weight: bold;
 }
 
-#kit {
+#image_no {
   font-family: $font;
   font-size: 12pt;
+  font-weight: bold;
+}
+
+#post_description {
+  font-family: $font;
+  font-size: 15pt;
+}
+
+#settings {
+  font-family: $font;
+  font-size: 12pt;
+  font-weight: bold
+}
+
+#kit {
+  font-family:'Bebas Neue';
+  font-size: 14pt;
   font-weight: bold;
 }
 

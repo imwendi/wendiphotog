@@ -48,8 +48,8 @@ pagination:
   permalink: '/page/:num/'
   title: ':title'
   limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+  sort_field: 'order'
+  sort_reverse: false
 autopages:
   enabled: true
   categories:
