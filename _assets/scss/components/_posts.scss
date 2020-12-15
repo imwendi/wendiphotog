@@ -94,8 +94,8 @@
   &__img {
     margin-bottom: 1em;
 
-    background-color: $color-white;
-    transition: transform 400ms ease-in-out;
+    /*background-color:
+    transition: transform 400ms ease-in-out;*/
 
     filter: none;
 
@@ -163,7 +163,7 @@
       border: 1px solid transparent;
       border: {
         top-color: $color-grey;
-        right-color: $color-grey;
+        /*right-color: $color-grey;*/
       }
       animation: spin-reverse 1.2s linear infinite both;
     }
