@@ -100,7 +100,13 @@ layout: default
 <center>
 <!--img src="{{ page.image }}#full"> -->
 {% for item in page.images %}
-<img src="{{ item }}#full">
+<!-- <img src="{{ item }}#full"> -->
+
+<div class="imgbox">
+    <img class="center-fit" src={{ item }}>
+    <br>
+</div>
+
 {% endfor %}
 </center>
 {% endif %}
