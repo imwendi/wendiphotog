@@ -13,6 +13,11 @@
       {% for item in post.settings %}
        &bull; {{item}} &nbsp;
       {% endfor %}
+
+      {% if post.image_no != "1" %}
+      <br>
+      ({{post.image_no}} Images)
+      {% endif %}
     </div>
 
   </a>
